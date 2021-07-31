@@ -1,0 +1,140 @@
+{
+  "tasks": [
+    {
+      "userId": 3,
+      "title": "my first task",
+      "dueDate": "2021-08-07",
+      "dueTime": "11:30",
+      "progress": 33,
+      "priority": 2,
+      "label": 3,
+      "project": 0,
+      "id": 22,
+      "isComplete": false
+    },
+    {
+      "userId": 3,
+      "title": "this week task",
+      "dueDate": "2021-08-01",
+      "dueTime": "",
+      "progress": 9,
+      "priority": 1,
+      "label": 0,
+      "project": 0,
+      "isComplete": false,
+      "id": 23
+    },
+    {
+      "userId": 3,
+      "title": "this week task two",
+      "dueDate": "2021-07-30",
+      "dueTime": "",
+      "progress": 0,
+      "priority": 1,
+      "label": 0,
+      "project": 0,
+      "isComplete": false,
+      "id": 25
+    },
+    {
+      "userId": 1,
+      "title": "asdfasd",
+      "dueDate": "2021-07-31",
+      "dueTime": "",
+      "progress": 0,
+      "priority": 1,
+      "label": "Label not chosen",
+      "project": "Project not chosen",
+      "id": 27,
+      "comments": [],
+      "isComplete": false
+    }
+  ],
+  "comments": [
+    {
+      "taskId": 22,
+      "text": "the ment",
+      "date": "2021-07-28T15:24:30.671Z",
+      "id": 1
+    },
+    {
+      "taskId": 25,
+      "text": "my comment",
+      "date": "2021-07-29T15:17:22.750Z",
+      "id": 2
+    }
+  ],
+  "labels": [
+    {
+      "text": "Label 1",
+      "updatedAt": "2021-07-30T04:44:03.901Z",
+      "createdAt": "2021-07-28T16:53:05.316Z",
+      "userId": 3,
+      "id": 0
+    },
+    {
+      "text": "Label 2",
+      "updatedAt": "2021-07-30T04:44:23.773Z",
+      "createdAt": "2021-07-22T16:53:05.316Z",
+      "userId": 3,
+      "id": 1
+    },
+    {
+      "id": 2,
+      "text": "Label 3",
+      "createdAt": "2021-07-24T16:53:05.316Z",
+      "userId": 3
+    },
+    {
+      "text": "user2 label",
+      "createdAt": "2021-07-30T14:49:21.536Z",
+      "userId": 1,
+      "id": 3
+    }
+  ],
+  "projects": [
+    {
+      "title": "Frontend Development",
+      "updatedAt": "2021-07-30T04:03:55.187Z",
+      "createdAt": "2021-07-29T16:58:55.748Z",
+      "userId": 3,
+      "id": 0
+    },
+    {
+      "title": "Api development",
+      "updatedAt": "2021-07-30T04:53:32.092Z",
+      "createdAt": "2021-07-25T16:53:05.316Z",
+      "userId": 3,
+      "id": 1
+    },
+    {
+      "id": 2,
+      "title": "Deployment",
+      "createdAt": "2021-07-27T16:53:05.316Z",
+      "userId": 3
+    },
+    {
+      "title": "New Project",
+      "createdAt": "2021-07-28T16:53:05.316Z",
+      "id": 3,
+      "userId": 3
+    }
+  ],
+  "users": [
+    {
+      "email": "user2@gmail.com",
+      "password": "U2FsdGVkX1/voWMzUKBUjMJQ8jo5n0DiUUHSrWrii/k=",
+      "id": 1
+    },
+    {
+      "email": "user3@gmail.com",
+      "password": "U2FsdGVkX18DnqWcLKORA1U0hCqJpFHRRohqSCwlxZg=",
+      "id": 2
+    },
+    {
+      "email": "user1@gmail.com",
+      "password": "U2FsdGVkX18Tk+0JVvMEZ/QMWr29Eoy8ojzrGY/7kTE=",
+      "id": 3
+    }
+  ]
+}
