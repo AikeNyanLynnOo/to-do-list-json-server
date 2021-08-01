@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npm i json-server && node server.js"
+    "start": "npm uninstall json-server && npm i json-server && node server.js"
   },
   "author": "anlo",
   "license": "ISC",
